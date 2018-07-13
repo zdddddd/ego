@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.bjsxt.ego</groupId>
+		<artifactId>ego-rpc</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>ego-rpc-service</artifactId>
+	
+	<dependencies>
+		<!-- 服务接口需要依赖pojo层，不需要依赖mapper层 -->
+		<dependency>
+			<groupId>com.bjsxt.ego</groupId>
+			<artifactId>ego-rpc-pojo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bjsxt.ego</groupId>
+			<artifactId>ego-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
+</project>

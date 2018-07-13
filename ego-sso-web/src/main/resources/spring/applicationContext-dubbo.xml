@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo 
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<!-- 配置应用程序名称,在可视化管理界面中用于区分哪个应用 -->
+	<dubbo:application name="ego-sso-web-consumer" />
+	<!-- 配置注册中心 跟注册中心交互使用zookeeper协议 注册中心的IP地址和端口号分别为：192.168.10.14和2181 -->
+<!-- 	<dubbo:registry protocol="zookeeper" address="192.168.10.14:2181"></dubbo:registry> -->
+	<dubbo:registry protocol="zookeeper" address="192.168.10.13:2181,192.168.10.13:2182,192.168.10.13:2183"></dubbo:registry>
+	<!-- 协议 -->
+	<!-- 创建远程服务的代理对象 -->
+	<!-- retries="0"不需要重试 -->
+	<dubbo:reference timeout="2000" retries="0" interface="com.bjsxt.ego.rpc.service.UserService"
+		id="userServiceProxy"></dubbo:reference>
+	
+</beans>

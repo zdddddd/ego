@@ -1,0 +1,11 @@
+com\bjsxt\ego\item\controller\ItemController.class
+com\bjsxt\ego\item\controller\ItemCatController.class
+com\bjsxt\ego\item\pojo\CartItem.class
+com\bjsxt\ego\item\pojo\MyItem.class
+com\bjsxt\ego\item\service\impl\ItemItemServiceImpl.class
+com\bjsxt\ego\item\controller\ItemCartController.class
+com\bjsxt\ego\item\service\impl\ItemCartServiceImpl.class
+com\bjsxt\ego\item\service\ItemItemService.class
+com\bjsxt\ego\item\service\ItemCartService.class
+com\bjsxt\ego\item\service\impl\ItemItemCatServiceImpl.class
+com\bjsxt\ego\item\service\ItemItemCatService.class

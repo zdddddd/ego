@@ -1,0 +1,13 @@
+##ignore this file##
+/target/ 
+
+.classpath
+.project
+.settings 
+
+# Log Files
+*.log
+
+# Intellij
+*.iml
+/target/

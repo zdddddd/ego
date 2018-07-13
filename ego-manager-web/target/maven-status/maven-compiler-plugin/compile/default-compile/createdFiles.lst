@@ -1,0 +1,17 @@
+com\bjsxt\ego\manager\service\ManagerContentCategoryService.class
+com\bjsxt\ego\manager\controller\ItemCatController.class
+com\bjsxt\ego\manager\controller\ItemParamController.class
+com\bjsxt\ego\manager\controller\ContentCategoryController.class
+com\bjsxt\ego\manager\service\impl\ManagerItemParamServiceImpl.class
+com\bjsxt\ego\manager\controller\PageController.class
+com\bjsxt\ego\manager\service\impl\ManagerItemCatServiceImpl.class
+com\bjsxt\ego\manager\service\ManagerItemService.class
+com\bjsxt\ego\manager\controller\ContentController.class
+com\bjsxt\ego\manager\service\ManagerContentService.class
+com\bjsxt\ego\manager\service\ManagerItemParamService.class
+com\bjsxt\ego\manager\service\impl\ManagerContentCategoryServiceImpl.class
+com\bjsxt\ego\manager\controller\ItemController.class
+com\bjsxt\ego\manager\service\impl\ManagerItemServiceImpl.class
+com\bjsxt\ego\manager\service\impl\ManagerContentServiceImpl.class
+com\bjsxt\ego\manager\service\ManagerItemCatService.class
+com\bjsxt\ego\manager\controller\ItemImageUploadController.class
